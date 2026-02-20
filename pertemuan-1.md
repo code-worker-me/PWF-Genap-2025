@@ -83,4 +83,4 @@ Sebagai bukti Anda telah berhasil melakukan instalasi dan menjalankan project La
 6.  Simpan file tersebut, lalu _refresh_ halaman di browser untuk melihat perubahannya.
 
 Contoh screenshoot tugas
-![Halaman Home]()
+![Halaman Home](/screenshoot/pertemuan-1/pertemuan-1.png)
