@@ -16,3 +16,6 @@ Saya sarankan sebelum pertemuan dimulai kalian telah belajar dari link" tersebut
 - Sertakan screenshoot di README.md
 
 *Penilaian biasanya dilakukan h+1 deadline tugas.*
+
+# Pertemuan
+- [Pertemuan 1](/pertemuan-1.md)
