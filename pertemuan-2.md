@@ -14,11 +14,11 @@ Modul Pertemuan 2: Pengenalan MVC dan Instalasi Breeze
 
 Laravel menggunakan pola arsitektur perangkat lunak yang disebut MVC. Pola ini memisahkan aplikasi menjadi tiga komponen utama untuk memudahkan pengembangan, pemeliharaan, dan kolaborasi tim:
 
-* Model: Bertugas menangani data dan logika bisnis. Model berinteraksi langsung dengan database (mengambil, menyimpan, memperbarui, atau menghapus data). Di Laravel, file Model biasanya merepresentasikan satu tabel di database dan disimpan di dalam folder app/Models/.
+* Model: Bertugas menangani data dan logika bisnis. Model berinteraksi langsung dengan database (mengambil, menyimpan, memperbarui, atau menghapus data). Di Laravel, file Model biasanya merepresentasikan satu tabel di database dan disimpan di dalam folder `app/Models/`.
 
-* View: Bertugas menangani antarmuka pengguna (User Interface). View berisi struktur HTML yang akan dilihat oleh pengguna di browser. Laravel menggunakan sistem templating bernama Blade, dan file View disimpan di dalam folder resources/views/.
+* View: Bertugas menangani antarmuka pengguna (User Interface). View berisi struktur HTML yang akan dilihat oleh pengguna di browser. Laravel menggunakan sistem templating bernama Blade, dan file View disimpan di dalam folder `resources/views/`.
 
-* Controller: Bertindak sebagai pengatur lalu lintas atau jembatan antara Model dan View. Controller menerima permintaan dari pengguna, memproses data melalui Model jika diperlukan, dan mengirimkan hasil akhirnya ke View untuk ditampilkan. File Controller disimpan di folder app/Http/Controllers/.
+* Controller: Bertindak sebagai pengatur lalu lintas atau jembatan antara Model dan View. Controller menerima permintaan dari pengguna, memproses data melalui Model jika diperlukan, dan mengirimkan hasil akhirnya ke View untuk ditampilkan. File Controller disimpan di folder `app/Http/Controllers/`.
 
 2\. Pengenalan Routing
 -------------------------------------
@@ -27,7 +27,7 @@ Routing adalah mekanisme yang digunakan oleh Laravel untuk mencocokkan URL atau 
 
 Ibarat sebuah peta, setiap kali pengguna mengetikkan URL di browser (misalnya /tentang-kami), sistem Routing Laravel akan melihat daftar rute yang sudah didefinisikan untuk menentukan aksi apa yang harus dilakukan selanjutnya.
 
-Tempat utama untuk mengatur route aplikasi web pada Laravel berada di dalam direktori routes/ pada file bernama web.php. Di sinilah Anda mendaftarkan semua alamat halaman web aplikasi Anda.
+Tempat utama untuk mengatur route aplikasi web pada Laravel berada di dalam direktori `routes/` pada file bernama  `web.php`. Di sinilah Anda mendaftarkan semua alamat halaman web aplikasi Anda.
 
 3\. Instalasi Laravel Breeze
 -------------------------------------
@@ -35,7 +35,7 @@ Tempat utama untuk mengatur route aplikasi web pada Laravel berada di dalam dire
 Laravel Breeze adalah paket bawaan resmi dari Laravel yang memberikan pondasi awal (scaffolding) yang sangat cepat dan sederhana untuk semua fitur autentikasi. Dengan Breeze, fitur seperti Login, Register, Reset Password, dan Dashboard pengguna sudah langsung tersedia menggunakan styling dari Tailwind CSS.
 
 Alur Instalasi Breeze:
-- Konfigurasi Database: Sebelum menginstal, Anda harus memastikan aplikasi sudah terhubung ke database melalui file konfigurasi lingkungan web (file .env). Anda perlu membuat database kosong di phpMyAdmin atau alat pengelolaan database lainnya terlebih dahulu.
+- Konfigurasi Database: Sebelum menginstal, Anda harus memastikan aplikasi sudah terhubung ke database.
 
 - Unduh Paket Breeze: Anda menggunakan manajer paket (Composer) untuk mengunduh Laravel Breeze ke dalam project.
 
