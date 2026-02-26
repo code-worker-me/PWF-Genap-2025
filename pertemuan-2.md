@@ -79,7 +79,19 @@ php artisan make:controller namaController
 * Tambahkan tautan (link) menu baru di halaman Dashboard bawaan Breeze (setelah user login) agar pengguna bisa mengklik dan otomatis diarahkan ke halaman /about yang telah Anda buat `resources/views/layouts/navigation.blade.php`.
 
 ## Screeshoot Tugas
+Tampilan `/about`.
 
+![About](/screenshoot/pertemuan-2/1.png)
+
+Register
+
+![About](/screenshoot/pertemuan-2/register.png
+
+Login
+
+![About](/screenshoot/pertemuan-2/login.png)
+
+*Sertakan Screenshoot saat pengumpulan tugas.*
 
 5\. Link Resource
 -------------------------------------
