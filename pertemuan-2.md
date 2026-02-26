@@ -70,12 +70,23 @@ composer run dev
 Berdasarkan materi yang telah dipelajari hari ini, lanjutkan project dari pertemuan 1 dengan mengerjakan tugas berikut:
 
 * Lakukan instalasi Laravel Breeze hingga fitur Login dan Register berfungsi serta dapat diakses melalui browser.
-* Buatlah sebuah Route baru dengan alamat URL `/about`.
-* Buatlah sebuah Controller baru untuk menangani halaman biodata tersebut. Arahkan route yang dibuat pada langkah 3 ke fungsi di dalam Controller ini.
+* Buatlah sebuah Route baru dengan alamat URL `/about` di `routes/web.php`.
+* Buatlah sebuah Controller baru untuk menangani halaman biodata tersebut. Arahkan route yang dibuat pada langkah 2 ke fungsi di dalam Controller ini.
 ``` bash
 php artisan make:controller namaController
 ```
-* Buatlah sebuah View baru yang berisi tampilan rapi mengenai data diri Anda (Nama, NIM, Program Studi, dan Hobi). Fungsi pada Controller di langkah 4 harus memanggil dan menampilkan View ini.
-* Tambahkan tautan (link) menu baru di halaman Dashboard bawaan Breeze (setelah user login) agar pengguna bisa mengklik dan otomatis diarahkan ke halaman /about yang telah Anda buat.
-![alt text](/screenshoot/pertemuan-2/path-navigation-blade.png)
+* Buatlah sebuah View baru yang berisi tampilan rapi mengenai data diri Anda (Nama, NIM, Program Studi, dan Hobi). Fungsi pada Controller di langkah 3 harus memanggil dan menampilkan View ini.
+* Tambahkan tautan (link) menu baru di halaman Dashboard bawaan Breeze (setelah user login) agar pengguna bisa mengklik dan otomatis diarahkan ke halaman /about yang telah Anda buat `resources/views/layouts/navigation.blade.php`.
+
+## Screeshoot Tugas
+
+
+5\. Link Resource
+-------------------------------------
+* Installasi [Breeze](https://www.example.com).
+* Penggunaan [Controller](https://laravel.com/docs/12.x/controllers).
+* Penggunaan [View](https://laravel.com/docs/12.x/views#main-content).
+* View [Video](https://youtu.be/RT0DZYYE3wc?si=6-hAT_3WTjrGDesr).
+* controller [Video](https://youtu.be/HNTsM2ZmoFQ?si=9evgSoXuNgfSvHdL).
+
 
