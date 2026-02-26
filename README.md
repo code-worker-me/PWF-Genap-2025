@@ -19,3 +19,4 @@ Saya sarankan sebelum pertemuan dimulai kalian telah belajar dari link" tersebut
 
 # Pertemuan
 - [Pertemuan 1](/pertemuan-1.md)
+- [Pertemuan 2](/pertemuan-2.md)
