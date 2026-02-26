@@ -81,6 +81,8 @@ Sebagai bukti Anda telah berhasil melakukan instalasi dan menjalankan project La
 5.  Hapus konten default dan ganti dengan teks yang menampilkan **Nama** dan **NIM** Anda.
     
 6.  Simpan file tersebut, lalu _refresh_ halaman di browser untuk melihat perubahannya.
+   
+7. Push Project Anda ke github.
 
 Contoh screenshoot tugas
 ![Halaman Home](/screenshoot/pertemuan-1/pertemuan-1.png)
