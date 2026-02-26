@@ -4,6 +4,7 @@
 Berikut daftar link yang bisa kalian gunakan untuk belajar
 - Bahasa Inggris [Official Laravel](https://youtu.be/MOLZOXqaomM?si=CCKvdNJWq9QJUAIh)
 - Bahasa Indonesia [WPU](https://youtu.be/T1TR-RGf2Pw?si=yJbFgrdVTvIh1brz)
+- Roadmap Laravel [LaravelDaily](https://github.com/LaravelDaily/Laravel-Roadmap-Learning-Path.git)
 
 ## Suggestion
 Saya sarankan sebelum pertemuan dimulai kalian telah belajar dari link" tersebut. 
