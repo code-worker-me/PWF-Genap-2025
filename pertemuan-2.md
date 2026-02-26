@@ -38,22 +38,44 @@ Alur Instalasi Breeze:
 - Konfigurasi Database: Sebelum menginstal, Anda harus memastikan aplikasi sudah terhubung ke database.
 
 - Unduh Paket Breeze: Anda menggunakan manajer paket (Composer) untuk mengunduh Laravel Breeze ke dalam project.
+``` bash
+composer require laravel/breeze --dev
+```
 
 - Proses Instalasi: Anda menjalankan perintah instalasi bawaan Breeze dan memilih jenis kerangka tampilan yang diinginkan (umumnya menggunakan Blade).
+``` bash 
+php artisan breeze:install
+```
+![alt text](/screenshoot/pertemuan-2/blade-instalation.png)
+
 
 - Migrasi Database: Anda menjalankan perintah migrasi agar Laravel otomatis membuatkan tabel-tabel yang dibutuhkan untuk sistem login (seperti tabel users) ke dalam database Anda.
+``` bash
+php artisan migrate
+```
 
 - Kompilasi Aset: Terakhir, Anda menggunakan Node Package Manager (NPM) untuk mengunduh dependensi frontend dan memproses file CSS/JavaScript agar tampilan login dan register terlihat rapi.
+``` bash
+npm install
+```
+
+- Kemudian jalankan dengan perintah berikut.
+``` bash
+composer run dev
+```
 
 4\. Penugasan Praktikum
 -------------------------------------
 
 Berdasarkan materi yang telah dipelajari hari ini, lanjutkan project dari pertemuan 1 dengan mengerjakan tugas berikut:
 
-* Buat database baru untuk project Anda dan hubungkan ke dalam aplikasi Laravel.
 * Lakukan instalasi Laravel Breeze hingga fitur Login dan Register berfungsi serta dapat diakses melalui browser.
-* Buatlah sebuah Route baru dengan alamat URL /biodata.
+* Buatlah sebuah Route baru dengan alamat URL `/about`.
 * Buatlah sebuah Controller baru untuk menangani halaman biodata tersebut. Arahkan route yang dibuat pada langkah 3 ke fungsi di dalam Controller ini.
+``` bash
+php artisan make:controller namaController
+```
 * Buatlah sebuah View baru yang berisi tampilan rapi mengenai data diri Anda (Nama, NIM, Program Studi, dan Hobi). Fungsi pada Controller di langkah 4 harus memanggil dan menampilkan View ini.
-* Tambahkan tautan (link) menu baru di halaman Dashboard bawaan Breeze (setelah user login) agar pengguna bisa mengklik dan otomatis diarahkan ke halaman /biodata yang telah Anda buat.
+* Tambahkan tautan (link) menu baru di halaman Dashboard bawaan Breeze (setelah user login) agar pengguna bisa mengklik dan otomatis diarahkan ke halaman /about yang telah Anda buat.
+![alt text](/screenshoot/pertemuan-2/path-navigation-blade.png)
 
