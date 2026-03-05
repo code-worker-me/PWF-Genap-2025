@@ -63,4 +63,5 @@ php artisan migrate
 **Catatan:** Pastikan untuk selalu menjalankan perintah `php artisan migrate` setiap kali Anda melakukan perubahan pada file Migration agar perubahan tersebut dapat diterapkan ke database.
 
 5\. Screemshot ERD
+
 ![erd](/screenshoot/pertemuan-3/done.png)
