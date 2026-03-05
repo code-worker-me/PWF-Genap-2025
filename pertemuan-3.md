@@ -69,7 +69,7 @@ Screemshot ERD
 *Sertakan screenshot pada model, migration, dan database*
 
 5\. Resource Belajar
-- [Laravel Documentation - Database: Migrations](https://laravel.com/docs/10.x/migrations)
-- [Laravel Documentation - Eloquent ORM](https://laravel.com/docs/10.x/eloquent)
-- [Tutorial Laravel - Membuat Model dan Migration](https://www.tutorialspoint.com/laravel/laravel_migrations.htm)
-- [Video Tutorial Laravel - Migrations](https://www.youtube.com/watch?v=Zz5j8s9Xo4A)
+- [Laravel Documentation - Database: Migrations](https://laravel.com/docs/12.x/migrations)
+- [Laravel Documentation - Eloquent ORM](https://laravel.com/docs/12.x/eloquent)
+- [Tutorial Laravel - Membuat Model dan Migration](https://santrikoding.com/tutorial-laravel-12-4-membuat-model-dan-migration)
+- [Video Tutorial Laravel - Migrations](https://youtu.be/eghZY9-3Wko?si=kj9x9rpC-9-KTmAC)
