@@ -65,3 +65,5 @@ php artisan migrate
 5\. Screemshot ERD
 
 ![erd](/screenshoot/pertemuan-3/done.png)
+
+*Sertakan screenshot pada model, migration, dan database*
