@@ -62,8 +62,14 @@ php artisan migrate
 
 **Catatan:** Pastikan untuk selalu menjalankan perintah `php artisan migrate` setiap kali Anda melakukan perubahan pada file Migration agar perubahan tersebut dapat diterapkan ke database.
 
-5\. Screemshot ERD
+Screemshot ERD
 
 ![erd](/screenshoot/pertemuan-3/done.png)
 
 *Sertakan screenshot pada model, migration, dan database*
+
+5\. Resource Belajar
+- [Laravel Documentation - Database: Migrations](https://laravel.com/docs/10.x/migrations)
+- [Laravel Documentation - Eloquent ORM](https://laravel.com/docs/10.x/eloquent)
+- [Tutorial Laravel - Membuat Model dan Migration](https://www.tutorialspoint.com/laravel/laravel_migrations.htm)
+- [Video Tutorial Laravel - Migrations](https://www.youtube.com/watch?v=Zz5j8s9Xo4A)
