@@ -1,4 +1,4 @@
-Modul Pertemuan 2: ERD, Model, dan Migration Database
+Modul Pertemuan 3: ERD, Model, dan Migration Database
 ======================================================
 
 **Tujuan Pembelajaran:**
