@@ -85,7 +85,7 @@ Tampilan `/about`.
 
 Register
 
-![About](/screenshoot/pertemuan-2/register.png
+![About](/screenshoot/pertemuan-2/register.png)
 
 Login
 
