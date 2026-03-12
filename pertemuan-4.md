@@ -15,12 +15,14 @@ Kita akan menggunakan *Resource Controller* bawaan Laravel untuk menggenerate ke
 php artisan make:controller ProductController
 ```
 
-![erd](/screenshoot/pertemuan-4/RouteProduct.png)
-
-2\. Implementasi Logika & Validasi (Controller)
------------------------------------------------
+- Implementasi Logika & Validasi (Controller)
 Buka app/Http/Controllers/ProductController.php:
 ![erd](/screenshoot/pertemuan-4/ProductController.png)
+
+2\. Routing
+-----------------------------------------------
+Buka file routes/web.php. Di sini kita akan mendefinisikan route untuk setiap operasi CRUD.
+![erd](/screenshoot/pertemuan-4/RouteProduct.png)
 
 3\. Pembuatan Antarmuka (View / Blade)
 --------------------------------------
