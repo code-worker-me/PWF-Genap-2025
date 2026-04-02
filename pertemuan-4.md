@@ -1,7 +1,7 @@
-# Modul Pertemuan 4: CRUD, dan Validasi Input
+Modul Pertemuan 4: CRUD, dan Validasi Input
+======================================================
 
 **Tujuan Pembelajaran**
-
 1. Mampu membuat dan mengonfigurasi Controller untuk menangani proses bisnis aplikasi.
 2. Mampu membuat rute (Routing) untuk operasi CRUD.
 3. Mampu menampilkan antarmuka pengguna (View) menggunakan Blade Template.
