@@ -13,6 +13,7 @@ Sebelum membatasi akses, penting untuk memahami dua konsep ini:
 - **Otorisasi (Authorization):** Proses memverifikasi apa saja yang boleh dilakukan oleh pengguna yang sudah login tersebut (Contoh: Apakah user ini boleh menghapus data produk?).
 
 **Konsep Role (Peran):** Untuk memudahkan otorisasi, pengguna biasanya dikelompokkan berdasarkan peran atau *Role*. Misalnya, ada pengguna dengan peran `admin` dan ada yang `user` biasa. Praktik paling sederhana di Laravel adalah dengan menambahkan satu kolom baru (misalnya `role` atau `is_admin`) pada tabel `users` di database untuk membedakan hak akses mereka.
+
 ---
 
 2\. Pengenalan Gate
@@ -20,6 +21,7 @@ Sebelum membatasi akses, penting untuk memahami dua konsep ini:
 - **Karakteristik:** Sangat cocok untuk operasi CRUD (Create, Read, Update, Delete) pada data spesifik. Misalnya, "Seorang pengguna hanya boleh mengubah (Update) data Product yang ia buat sendiri."
 - **Pembuatan:** Policy dibuat menggunakan perintah Artisan (`php artisan make:policy`).
 - **Cara Kerja:** Di dalam file Policy, terdapat berbagai method seperti `view`, `create`, `update`, dan `delete`. Di dalam method inilah logika dicocokkan, contohnya mencocokkan apakah `id` milik pengguna yang sedang login sama dengan `user_id` yang ada di dalam data produk.
+
 ---
 
 3\. Penugasan Praktikum
