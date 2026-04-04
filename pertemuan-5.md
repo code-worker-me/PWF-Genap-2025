@@ -31,6 +31,16 @@ Pada pertemuan ini, mari kita terapkan sistem keamanan tambahan pada project yan
 4. **Implementasi Policy:** Buatlah sebuah Policy untuk model Product (`ProductPolicy`).
 5. **Logika Policy:** Di dalam `ProductPolicy`, atur logika pada bagian `update` dan `delete` agar pengguna biasa hanya bisa mengubah dan menghapus produk miliknya sendiri (sesuaikan `user_id` pada produk dengan `id` pengguna yang login). Namun, jika pengguna tersebut adalah `admin`, berikan dia akses untuk menghapus produk milik siapa saja.
 
+Penugasan Kelas B
+-----------------
+1. **Persiapan Role:** Tambahkan kolom `role` (tipe data string, default: 'user') ke dalam tabel `users`. Kemudian ubah salah satu data user di database Anda menjadi 'admin'.
+2. **Implementasi Gate:** Buatlah sebuah Gate dengan nama `export-product`. Atur logikanya agar Gate ini hanya mengizinkan akses jika user yang sedang login memiliki role sebagai admin.
+3. **Penerapan Gate pada Route/Tampilan:** Gunakan Gate `export-product` tersebut untuk menyembunyikan button/tombol export di tampilan agar tidak bisa dilihat oleh user biasa, dan amankan Route exportnya juga.
+4. **Implementasi Policy:** Buatlah sebuah Policy untuk model Product (`ProductPolicy`).
+5. **Logika Policy:** Di dalam `ProductPolicy`, atur logika pada bagian `update` dan `delete` agar pengguna biasa hanya bisa mengubah dan menghapus produk miliknya sendiri (sesuaikan `user_id` pada produk dengan `id` pengguna yang login). Namun, jika pengguna tersebut adalah `admin`, berikan dia akses untuk menghapus produk milik siapa saja.
+
+
+
 4\. Resource Belajar
 --------------------
 - [Laravel Auth](https://laravel.com/docs/12.x/authorization#gates)
