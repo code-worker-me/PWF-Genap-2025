@@ -33,13 +33,12 @@ Pada pertemuan ini, mari kita terapkan sistem keamanan tambahan pada project yan
 
 Penugasan Kelas B
 -----------------
-1. **Persiapan Role:** Tambahkan kolom `role` (tipe data string, default: 'user') ke dalam tabel `users`. Kemudian ubah salah satu data user di database Anda menjadi 'admin'.
+1. **Persiapan Role:** Tambahkan kolom `role` (tipe data string, default: 'user') ke dalam tabel `users`. Kemudian ubah salah satu data user di database Anda menjadi 'admin', lalu tampilkan rolenya pada Navigation Bar.
 2. **Implementasi Gate:** Buatlah sebuah Gate dengan nama `export-product`. Atur logikanya agar Gate ini hanya mengizinkan akses jika user yang sedang login memiliki role sebagai admin.
 3. **Penerapan Gate pada Route/Tampilan:** Gunakan Gate `export-product` tersebut untuk menyembunyikan button/tombol export di tampilan agar tidak bisa dilihat oleh user biasa, dan amankan Route exportnya juga.
 4. **Implementasi Policy:** Buatlah sebuah Policy untuk model Product (`ProductPolicy`).
 5. **Logika Policy:** Di dalam `ProductPolicy`, atur logika pada bagian `update` dan `delete` agar pengguna biasa hanya bisa mengubah dan menghapus produk miliknya sendiri (sesuaikan `user_id` pada produk dengan `id` pengguna yang login). Namun, jika pengguna tersebut adalah `admin`, berikan dia akses untuk menghapus produk milik siapa saja.
-
-
+(Screenshoot hasil dari Gate dan Policy)
 
 4\. Resource Belajar
 --------------------
@@ -47,3 +46,4 @@ Penugasan Kelas B
 - [Gates Example](https://www.twilio.com/en-us/blog/developers/community/rapid-introduction-laravel-gates)
 - [Gates and Policies](https://laraveldaily.com/lesson/roles-permissions/adding-gates-policies)
 - [Policies](https://medium.com/@zulfikarditya/mastering-laravel-policies-a-complete-guide-to-authorization-in-laravel-991bbdcc6756)
+
