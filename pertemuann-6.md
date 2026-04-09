@@ -13,7 +13,9 @@ Validasi adalah proses memverifikasi dan menyaring data yang dikirimkan oleh pen
 
 Mengapa Validasi Sangat Penting?
 > Keamanan (Security): Mencegah serangan malicious seperti SQL Injection atau Cross-Site Scripting (XSS) dengan memastikan hanya data dengan format yang benar yang bisa masuk ke sistem.
+
 > Integritas Data (Data Integrity): Memastikan database tidak dipenuhi oleh data yang korup, kosong, atau tidak masuk akal (misalnya: harga bernilai negatif, atau email tanpa tanda '@').
+
 > Pengalaman Pengguna (User Experience/UX): Memberikan feedback atau pesan kesalahan yang jelas kepada pengguna ketika mereka salah memasukkan data, sehingga mereka tahu apa yang harus diperbaiki.
 
 2\. Cara Kerja Validasi di Laravel
