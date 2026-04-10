@@ -29,7 +29,7 @@ Pada pertemuan ini, mari kita terapkan sistem keamanan tambahan pada project yan
 2. **Implementasi Gate:** Buatlah sebuah Gate dengan nama `manage-product`. Atur logikanya agar Gate ini hanya mengizinkan akses jika user yang sedang login memiliki role sebagai admin.
 3. **Penerapan Gate pada Route/Tampilan:** Gunakan Gate `manage-product` tersebut untuk menyembunyikan menu/tombol Product di tampilan agar tidak bisa dilihat oleh user biasa, dan amankan Route kategori Anda.
 4. **Implementasi Policy:** Buatlah sebuah Policy untuk model Product (`ProductPolicy`).
-5. **Logika Policy:** Di dalam `ProductPolicy`, atur logika pada bagian `update` dan `delete` agar pengguna biasa hanya bisa mengubah dan menghapus produk miliknya sendiri (sesuaikan `user_id` pada produk dengan `id` pengguna yang login). Namun, jika pengguna tersebut adalah `admin`, berikan dia akses untuk menghapus produk milik siapa saja.
+5. **Logika Policy:** Di dalam `ProductPolicy`, atur logika pada bagian `update` dan `delete` hanya admin yg bisa edit dan delete milik datanya sendiri.
 
 Penugasan Kelas B
 -----------------
