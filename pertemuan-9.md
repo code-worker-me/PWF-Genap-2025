@@ -1,4 +1,4 @@
-Modul Pertemuan 9: API - Laravel Sanctum - Auth, Read, Search Data, JWT dan Dokumentasi API
+Modul Pertemuan 9: API(CRUD)
 =====================================================================
 
 **Tujuan Pembelajaran**
