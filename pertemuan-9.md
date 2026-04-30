@@ -138,7 +138,7 @@ public function store(StoreProductRequest $request)
 }
 ```
 
-dan methoid `show` untuk menampilkan data berdasarkan id.
+dan method `show` untuk menampilkan data berdasarkan id.
 
 ```php
 public function show(int $id)
@@ -174,7 +174,7 @@ Route::middleware('auth:sanctum')->group(function () {
 Route::get('/product/{id}', [ProductApiController::class, 'show']);
 ```
 
-Buat controller API untuk authentikasi dengan nama method getToken untuk mendapatkan token API, di folder `Api` dan tambahkan kode berikut:
+Buat *Auth* controller untuk authentikasi dengan nama method `getToken` untuk mendapatkan `access_token`, di folder `Api` dan tambahkan kode berikut:
 
 ```php
 public function getToken(Request $request)
@@ -209,7 +209,7 @@ public function getToken(Request $request)
 }
 ```
 
-Tambahkan route untuk mendapatkan token API di file `routes/api.php`:
+Panggil method diatas di file `routes/api.php`:
 
 ```php
 Route::post('/login', [AuthController::class, 'getToken']);
