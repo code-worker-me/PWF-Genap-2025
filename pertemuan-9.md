@@ -224,4 +224,4 @@ Route::post('/login', [AuthController::class, 'getToken']);
 
 ### Tugassssssss AWOKWOKWKWKWKWK
 1. Buat API untuk `Category` dengan method `POST`, `GET`, `PUT`, dan `DELETE` dengan otentikasi menggunakan token API.
-2. Lengkapi method pada `ProductController` *GET*, *PUT*, dan *DELETE*.
+2. Lengkapi method pada `ProductApiController` *GET*, *PUT*, dan *DELETE*.
