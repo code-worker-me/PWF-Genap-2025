@@ -222,6 +222,6 @@ Route::post('/login', [AuthController::class, 'getToken']);
 ![post-request](/screenshoot/pertemuan-9/post-request.png)
 > Saat melakukan request API `POST`, `EDIT`, dan `DELETE` pastikan menyertakan token API pada header dengan format `Authorization: Bearer {token}` untuk otentikasi dan otorisasi akses ke endpoint tersebut. Dan pastikan juga terdapat data `Category` supaya bisa menyimpan data.
 
-### Tugassssssss AWOKWOKWKWKWKWK
+### Tugas Praktikum
 1. Buat API untuk `Category` dengan method `POST`, `GET`, `PUT`, dan `DELETE` dengan otentikasi menggunakan token API.
 2. Lengkapi method pada `ProductApiController` *GET*, *PUT*, dan *DELETE*.
